@@ -1,0 +1,47 @@
+.header{
+    position: sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+    border-bottom: 1px solid lightgrey;
+    padding: 8px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.header__instaUp {
+    display: flex;
+    align-items: center;
+}
+.header__text {
+    margin: 0;
+}
+.header__user {
+    display: flex;
+    align-items: center;
+}
+
+.header__user__link:hover {
+    text-decoration: none;
+}
+.header__user__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:contain;
+    margin-right: 10px;
+}
+.header__user__username {
+    margin: 0;
+}
+.header__buttons  {
+    display: flex;
+}
+.header__buttons button {
+    background-color: transparent;
+    color: black;
+    padding: 12px 24px;
+    border-radius: 25px;
+}

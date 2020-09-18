@@ -1,0 +1,38 @@
+.postbox {
+    margin: 10px ;
+    padding: 5px;
+}
+
+.postbox button {
+    border-radius: 35px;
+    border: none;
+    margin: 10px;
+}
+.postbox input {
+    border:none;
+    padding: 15px ;
+    font-size: 1.8em;
+    text-align: center;
+}
+.postbox__inputfile {
+    display: flex;
+    justify-content: space-between !important;
+    padding: 10px;
+}
+
+.postbox__inputfile input {
+    display: none !important;
+}
+.postbox__inputfile label {
+    width: 1.8em;
+    height: 1.8em;
+    margin: 10px;
+}
+.postbox__inputfile label:hover {
+    cursor: pointer;
+}
+.postbox textarea:focus,.postbox input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
